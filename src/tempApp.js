@@ -276,7 +276,7 @@ const TempApp = () => {
             )}
           </div>
 
-          <div className="flex gap-2">
+          <div className="flex gap-2 max-w-full max-sm:flex-col sm:gap-4">
             <div className=" flex flex-col z-10 shadow-gray-600 w-32 py-2 flex items-center justify-center bg-gradient-to-r from-purple-500 to-orange-500 rounded-[4px]">
               <span>Wind speed</span>
               <span className="text-white">

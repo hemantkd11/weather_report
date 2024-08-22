@@ -3,11 +3,17 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        sm: "600px",
+        md: "900px", // Define your small screen breakpoint
+        // Add other breakpoints if necessary
+      },
       fontSize: {
         Header: "40px",
         subheader: "30px",
         "body-text": "18px",
         temp: "5rem",
+        mobile: "30px",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

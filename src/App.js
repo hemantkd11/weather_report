@@ -5,9 +5,9 @@ function App() {
   return (
     <>
       <div className="w-full relative overflow-hidden  h-[100vh] flex items-center justify-center bg-black">
-        <div className="w-1/2  shadow-allsidesame bg-teal-400  flex items-center justify-center rounded">
+        <div className="w-full max-w-[90%] sm:max-w-[90%] md:w-1/2 shadow-allsidesame bg-teal-400  flex items-center justify-center rounded">
           <div className="p-8 relative overflow-hidden w-full gap-6 flex flex-col items-center - justify-center  ">
-            <div className=" p-4 text-Header  text-black border-solid border-4 border-white">
+            <div className=" p-4 text-Header max-sm:text-mobile text-black border-solid border-4 border-white">
               Weather Report
             </div>
             <div className="w-full flex flex-col items-center justify-center">
