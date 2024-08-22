@@ -171,7 +171,7 @@ const TempApp = () => {
       }
     };
     fetchApi();
-  }, [query]);
+  }, [search, query]);
 
   const handleSearch = () => {
     setQuery(search);
