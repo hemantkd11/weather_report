@@ -249,7 +249,7 @@ const TempApp = () => {
                   <span className="text-black font-normal">max </span>{" "}
                   {city.main.temp_max}°
                 </div>
-                <div className="text-white text-temp z-10">
+                <div className="text-white text-temp z-10 max-sm:text-temp_mob">
                   {city.main.temp}°
                 </div>
                 <div className="text-white">

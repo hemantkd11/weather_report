@@ -13,6 +13,7 @@ module.exports = {
         subheader: "30px",
         "body-text": "18px",
         temp: "5rem",
+        temp_mob: "3rem",
         mobile: "30px",
       },
       backgroundImage: {
